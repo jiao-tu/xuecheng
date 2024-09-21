@@ -7,6 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>xuecheng-plus-parent</name>
     <description>xuecheng-plus-parent</description>
+    <packaging>pom</packaging>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -257,7 +258,7 @@
                     <useDefaultDelimiters>true</useDefaultDelimiters>
                 </configuration>
             </plugin>
-            <plugin>
+          <!--  <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
@@ -273,7 +274,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
